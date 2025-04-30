@@ -1,9 +1,15 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Static Website</title>
+    <meta charset="utf-8" />
+    <title>Submit a Message</title>
   </head>
+
   <body>
-    <h1>Static Website</h1>
-    <p>This is a static website.</p>
+    <h1>Contact Form</h1>
+    <form action="/submit" method="POST">
+      <input type="text" name="message" placeholder="Your message" required />
+      <button type="submit">Send</button>
+    </form>
   </body>
 </html>
